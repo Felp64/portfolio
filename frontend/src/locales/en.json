@@ -41,6 +41,14 @@
         "project-3-description": "Description of project 3.",
         "project-4-title": "Project 4",
         "project-4-description": "Description of project 4.",
+        "project-5-title": "Plantei (Little Garden)",
+        "project-5-description": "Educational web app for kindergarten classes to track plant growth with animations, music, and child-friendly interaction guided by Benny.",
+        "project-6-title": "Manager.io (Business Management Platform)",
+        "project-6-description": "Modular platform to digitize internal operations with a React frontend, Spring Boot backend, and MySQL database, focused on efficiency and decision-making.",
+        "project-7-title": "Organiza Smart Management",
+        "project-7-description": "Web solution for managing orders, inventory, and menus in public restaurants, focused on operational efficiency, cost reduction, and transparency.",
+        "project-8-title": "Professional Portfolio",
+        "project-8-description": "Bilingual personal website built with React to showcase background, skills, projects, experience, and contact channels, with responsive design and EmailJS messaging.",
         "best-projects": "best-projects"
     },
     "smallprojects": {
@@ -51,7 +59,9 @@
         "project-3-title": "Currency converter",
         "project-3-description": "Application to convert values between different currencies using an exchange API.",
         "project-4-title": "Todo list",
-        "project-4-description": "Application to manage daily tasks with features to add, edit and delete."
+        "project-4-description": "Application to manage daily tasks with features to add, edit and delete.",
+        "project-5-title": "Meeting Room Reservation System",
+        "project-5-description": "System for managing meeting room bookings with calendar view, advanced filters, notifications, and an admin dashboard to optimize space usage."
     },
 
     "enterprise-name-1": "Alvo GR e Tecnologia",

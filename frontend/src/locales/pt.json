@@ -41,6 +41,14 @@
         "project-3-description": "Descrição do projeto 3.",
         "project-4-title": "Projeto 4",
         "project-4-description": "Descrição do projeto 4.",
+        "project-5-title": "Plantei (Little Garden)",
+        "project-5-description": "Aplicação educacional para o maternal acompanhar o crescimento de plantas com animações, músicas e interação infantil guiada pelo Benny.",
+        "project-6-title": "Manager.io (Plataforma de Gestão Empresarial)",
+        "project-6-description": "Plataforma modular para digitalizar processos internos com frontend em React, backend em Spring Boot e banco MySQL, com foco em eficiência e tomada de decisão.",
+        "project-7-title": "Organiza Gestão Inteligente",
+        "project-7-description": "Solução web para gestão de pedidos, estoque e cardápios em restaurantes populares, com foco em eficiência operacional, redução de custos e transparência.",
+        "project-8-title": "Portfólio Profissional",
+        "project-8-description": "Website pessoal bilíngue em React para apresentar trajetória, habilidades, projetos, experiências e contato com design responsivo e envio de mensagens via EmailJS.",
         "best-projects": "melhores projetos"
     },
     "smallprojects": {
@@ -51,7 +59,9 @@
         "project-3-title": "Conversor de moedas",
         "project-3-description": "Aplicação para converter valores entre diferentes moedas usando uma API de câmbio.",
         "project-4-title": "Lista de tarefas",
-        "project-4-description": "Aplicação para gerenciar tarefas diárias com funcionalidades de adicionar, editar e excluir."
+        "project-4-description": "Aplicação para gerenciar tarefas diárias com funcionalidades de adicionar, editar e excluir.",
+        "project-5-title": "Sistema de Reserva de Salas de Reunião",
+        "project-5-description": "Sistema para gestão de reservas de salas com calendário, filtros avançados, notificações e painel administrativo para otimizar o uso dos espaços."
     },
     "enterprise-name-1": "Alvo GR e Tecnologia",
     "enterprise-name-2": "Alvo GR e Tecnologia",

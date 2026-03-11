@@ -41,7 +41,7 @@ const Home = () => {
                     <div className="trabalhando-box">
                         <span className="trabalhando-quadrado"></span>
                         <p>
-                            {t("trabalhando-atualmente")} <strong>Portfolio</strong>
+                            {t("trabalhando-atualmente")} <strong> Alvo GR e Tecnologia</strong>
                         </p>
                     </div>
                 </div>
