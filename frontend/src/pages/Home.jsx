@@ -22,6 +22,7 @@ const Home = () => {
                     <div className='home-container'>
                         <h1 className="nome">{t("nome")}</h1>
                         <h3 className="profissao">{t("profissao")}</h3>
+                        <p className="home-summary">{t("home-summary")}</p>
                     </div>
 
                     <div className="home-bottom">
@@ -32,7 +33,7 @@ const Home = () => {
 
                         <div className="location">
                             <MdLocationOn className="icon" />
-                            <p>Belo Horizonte, MG - Brasil</p>
+                            <p>{t("location")}</p>
                         </div>
                     </div>
                 </div>
@@ -41,7 +42,7 @@ const Home = () => {
                     <div className="trabalhando-box">
                         <span className="trabalhando-quadrado"></span>
                         <p>
-                            {t("trabalhando-atualmente")} <strong>Portfolio</strong>
+                            {t("trabalhando-atualmente")} <strong>{t("current-company")}</strong>
                         </p>
                     </div>
                 </div>

@@ -1,5 +1,4 @@
 import { useLanguage } from '../services/translation'
-import { Trans } from "react-i18next"
 import "../styles/contacts.css"
 
 // icones da bibiloteca react-icons
@@ -11,10 +10,10 @@ const Contacts = () => {
 
     // lista de contatos, cada um com href, label e ícone, editar as urls com suas informações
     const items = [
-        { href: 'https://linkedin.com', label: 'Linkedin', icon: <FaLinkedin /> },
-        { href: 'https://github.com/joaopauloaramuni', label: 'Github', icon: <FaGithub /> },
-        { href: 'mailto:jfwwniogwi@gmail.com', label: 'Email', icon: <FaEnvelope /> },
-        { href: 'https://wa.me/5531999999999', label: 'Whatsapp', icon: <FaWhatsapp /> },
+        { href: 'https://www.linkedin.com/in/felipe-augusto-mendes-pereira/', label: 'LinkedIn', icon: <FaLinkedin /> },
+        { href: 'https://github.com/Felp64', label: 'Github', icon: <FaGithub /> },
+        { href: 'mailto:felipepepe64@gmail.com', label: 'Email', icon: <FaEnvelope /> },
+        { href: 'https://wa.me/5531971278542', label: 'Whatsapp', icon: <FaWhatsapp /> },
     ];
 
     return (

@@ -78,6 +78,13 @@
 .profissao {
     margin: 0;
 }
+
+.home-summary {
+  margin: 0;
+  max-width: 620px;
+  color: #abb2bf;
+  line-height: 1.6;
+}
 .cta-box{
         display: flex;
         gap: 1rem;

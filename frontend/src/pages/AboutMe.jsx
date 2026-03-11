@@ -1,13 +1,11 @@
 import { useLanguage } from '../services/translation'
 import Skills from '../components/Skills.jsx'
 import '../styles/about.css'
-import amazonLogo from "../assets/amazon.png";
-import googleLogo from "../assets/google.png"
-import ifoodLogo from "../assets/IfoodIcon.png"
 import profilePhoto from "../assets/foto.png"
 
 const AboutMe = () => {
     const { t } = useLanguage()
+    const experiences = [1, 2, 3, 4, 5, 6, 7]
 
     return (
         <>
@@ -40,42 +38,17 @@ const AboutMe = () => {
                     <hr></hr>
                 </h1>
                 <div className="timeline">
-                    <div className="container">
-                        <img src={amazonLogo} alt="AmazonLogo"/>
-                        <h2 className="enterpriseTitle text-gradient"> {t('enterprise-name-1')}</h2>
-                        <div className="text-box">
-                            <h2> {t('position-name-1')}</h2>
-                            <small> 2024-2026</small>
-                            <p>{t('job-description-1')}</p>
+                    {experiences.map((id) => (
+                        <div className="container" key={id}>
+                            <span className="timeline-dot" aria-hidden="true" />
+                            <h2 className="enterpriseTitle text-gradient">{t(`enterprise-name-${id}`)}</h2>
+                            <div className="text-box">
+                                <h2>{t(`position-name-${id}`)}</h2>
+                                <small>{t(`period-${id}`)}</small>
+                                <p>{t(`job-description-${id}`)}</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="container">
-                        <img src={googleLogo} alt="GoogleLogo"/>
-                        <h2 className="enterpriseTitle text-gradient"> {t('enterprise-name-2')}</h2>
-                        <div className="text-box">
-                            <h2> {t('position-name-1')}</h2>
-                            <small> 2024-2026</small>
-                            <p>{t('job-description-2')}</p>
-                        </div>
-                    </div>
-                    <div className="container">
-                        <img src={ifoodLogo} alt="IfoodLogo"/>
-                        <h2 className="enterpriseTitle text-gradient"> {t('enterprise-name-3')}</h2>
-                        <div className="text-box">
-                            <h2> {t('position-name-2')}</h2>
-                            <small> 2024-2026</small>
-                            <p>{t('job-description-3')}</p>
-                        </div>
-                    </div>
-                    <div className="container">
-                        <img src={amazonLogo} alt="AmazonLogo"/>
-                        <h2 className="enterpriseTitle text-gradient"> {t('enterprise-name-1')}</h2>
-                        <div className="text-box">
-                            <h2> {t('position-name-2')}</h2>
-                            <small> 2024-2026</small>
-                            <p>{t('job-description-3')}</p>
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </section>
             </>
