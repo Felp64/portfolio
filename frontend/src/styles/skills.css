@@ -67,4 +67,25 @@
     margin: 0;
     color: #ABB2BF;
     line-height: 1.6;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.skill-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    border: 1px solid #3b3f46;
+    background: #2b2f36;
+    color: #d9dde4;
+    padding: 0.3rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+}
+
+.skill-icon {
+    display: inline-flex;
+    font-size: 1rem;
+    color: #870EBF;
 }

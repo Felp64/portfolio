@@ -14,7 +14,7 @@ const Resume = () => {
     // - PT: /public/curriculo-pt.pdf
     // - EN: /public/resume-en.pdf
     // Para atualizar o currículo, substitua esses arquivos mantendo os mesmos nomes.
-    const resumeFile = resumeLang === "PT" ? "/curriculo-pt.pdf" : "/resume-en.pdf";
+    const resumeFile = resumeLang === "PT" ? "/curriculo-pt.pdf" : "/Felipe Pereira (1).pdf";
 
     return (
         <div className="resume-content">
