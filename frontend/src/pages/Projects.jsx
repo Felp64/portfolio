@@ -1,6 +1,6 @@
 import { useLanguage } from "../services/translation";
 import '../styles/projects.css'
-import project1Image from '../assets/project1.jpg';
+import project1Image from '../assets/Home.jpg';
 import project4Image from '../assets/LogoOrganiza.png';
 
 const Projects = () => {
