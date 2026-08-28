@@ -78,7 +78,6 @@ const Projects = () => {
                         <p className="project-description">{t(project.descKey)}</p>
                         <div className="project-links">
                             <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">&gt; GitHub</a>
-                            <a href={project.demo} target="_blank" rel="noopener noreferrer" className="project-link">&gt; Demo</a>
                         </div>
                     </div>
                 ))}
@@ -101,7 +100,6 @@ const Projects = () => {
                         <p className="project-description">{t(project.descKey)}</p>
                         <div className="project-links">
                             <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">&gt; GitHub</a>
-                            <a href={project.demo} target="_blank" rel="noopener noreferrer" className="project-link">&gt; Demo</a>
                         </div>
                     </div>
                 ))}

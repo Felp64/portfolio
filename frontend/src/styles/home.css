@@ -42,14 +42,17 @@
 }
 
 .photo-box {
-    width: 420px;
-    height: 380px;
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    aspect-ratio: 42 / 38;
     border-radius: 8px;
     object-fit: cover;
 }
 .trabalhando-box {
     display: flex;
-    width: 420px;
+    width: 100%;
+    max-width: 420px;
     align-items: center;
     gap: 0.6rem;
     padding: 0.6rem 1rem;
@@ -138,6 +141,12 @@
 .home-content .skills-title{
     font-size: 1.5rem;
 }
+@media (max-width: 768px) {
+  .home-infos {
+    margin-left: 0;
+  }
+}
+
 @media (max-width: 480px){
   .cta-box{
     flex-direction: column;
